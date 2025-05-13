@@ -1,0 +1,158 @@
+
+#linkbar { 
+    height: 25px; 
+    position: fixed; 
+    bottom:0%;
+    width:100%; 
+	left: 130px;
+}
+
+#contain {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: table;
+    line-height: 110%;  
+}
+
+#linenumbers {
+	margin-right: 15px;
+	text-align: right;
+	overflow: hidden;
+	color: #646f72;
+	font-family: monospace;
+	font-size:13px;
+	margin-top: 10px;
+}
+
+#pageheading {
+	position: absolute;
+	top: 60px;
+	color: white;
+}
+
+#title {
+	position: absolute;
+	top: 36px;
+	color: white;
+}
+
+#content {
+	position: relative;
+	left: 70px;
+	padding-left: 20px;
+	display: inline-block;
+	color: #dcdcdc;
+	font-family: Courier;
+	font-size:15px;
+	font-family: monospace;
+	font-size:13px;
+	max-width: 900px;
+	margin-top: 10px;
+}
+
+#left {
+    background-color: #2e3436;
+    width: 50px;
+    text-decoration: none;
+    display: table-cell;
+    top: 0px;
+
+    background-image: url("images/bar.png");
+    background-repeat: repeat-y;
+    background-position: 35px;
+    background-attachment: fixed;
+
+    position: fixed;
+}
+
+#right {
+    width: 10px; 
+    display: table-cell;
+    background-color:black;
+}
+
+#filler {
+    display: table-cell;
+    width: auto;
+    background: #5d3a5f;
+}
+ 
+body {
+	padding: 0px;
+	margin: 0px;
+	height:100%;
+	position: relative;
+	background: #5d3a5f;
+}
+
+html {
+    min-height:100%;
+    position:relative;
+}
+
+img {
+    border:none;
+    outline:none
+}
+
+th {
+	vertical-align: top;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 15px;
+	text-align: left;
+	font-weight: normal;
+}
+
+#header {
+    background-color: #252728;
+    position:fixed;
+    margin-bottom:0px;
+	font-family: monospace;
+	padding-left: 30px;
+    width: 100%; 
+	left: 50px;
+    top: 0%;
+}
+
+#headercorner {
+    background-color: #2a2e2f;
+    position:fixed;
+    margin-bottom:0px;
+	font-family: monospace;
+	padding-left: 0px;
+    width: 50px; 
+	left: 0px;
+    top: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#header a {
+	text-decoration: none;
+	color: #646f72;
+}
+
+#menuitem {
+	display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menuitem:hover {
+	background-color: #2a2e2f;
+}
+
+.container {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.container > div {
+  flex: 1; /*grow*/
+}
